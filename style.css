@@ -1,0 +1,163 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f9fa;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    background:#fff;
+    text-align:center;
+    padding:40px 20px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.profile img{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #28a745;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.profile img:hover{
+    transform:scale(1.05);
+}
+
+header h1{
+    margin-top:15px;
+    font-size:35px;
+}
+
+header p{
+    color:#666;
+    margin-top:8px;
+}
+
+/* Navigation */
+
+nav{
+    margin-top:25px;
+}
+
+nav a{
+    color:#333;
+    text-decoration:none;
+    margin:0 12px;
+    font-weight:600;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#28a745;
+}
+
+/* Sections */
+
+section{
+    max-width:1000px;
+    margin:35px auto;
+    padding:20px;
+}
+
+section h2{
+    color:#28a745;
+    margin-bottom:20px;
+}
+
+/* Cards */
+
+.card{
+    background:#fff;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Skills */
+
+ul{
+    padding-left:20px;
+}
+
+li{
+    margin-bottom:10px;
+}
+
+/* Button */
+
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#28a745;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#1f8a36;
+    transform:scale(1.05);
+}
+
+/* Contact */
+
+.contact p{
+    margin:8px 0;
+}
+
+/* Footer */
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#fff;
+    margin-top:40px;
+    color:#777;
+    box-shadow:0 -3px 10px rgba(0,0,0,.08);
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+header h1{
+    font-size:28px;
+}
+
+.profile img{
+    width:140px;
+    height:140px;
+}
+
+nav a{
+    display:block;
+    margin:10px 0;
+}
+
+section{
+    padding:15px;
+}
+
+}
